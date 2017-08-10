@@ -1,4 +1,4 @@
-variable "name" { default = "REPLACE_ME_TEST" }
+variable "name" { default = "REPLACE_ME" }
 variable "cidr" { default = "10.139.0.0/16" }
 
 module "network" {
