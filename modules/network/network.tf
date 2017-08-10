@@ -25,6 +25,7 @@ resource "aws_security_group" "allow" {
   tags {
     Name = "${var.name}"
     Foo = "Bar"
+    Bar = "Foo"
   }
 }
 
